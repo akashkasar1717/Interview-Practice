@@ -1,0 +1,24 @@
+package com.pattern.java;
+
+public class Pattern85 {
+	public static void main(String args[]) {
+		int i,j;
+		for(i=0;i<5;i++) {
+			for(j=0;j<5;j++) {
+				if(i ==2) {
+					System.out.print("*");
+				}
+				if(i != 2) {
+					if(j == 2) {
+						System.out.print("*");
+					}else {
+						System.out.print((char) (79));
+					}
+				}
+				
+			}
+			System.out.println();
+		}
+	}
+
+}
